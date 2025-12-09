@@ -34,7 +34,7 @@ No real-world exploit parameters, hardware details, or procedural guidance are i
 --
 # High-Level Methodology:
 The project follows the same logical structure as the original paper:
-
+```
 Step 1 — Attack Prerequisite Analysis
 
 For each sensor attack category, we identify:
@@ -85,6 +85,7 @@ This reproduces the paper’s key finding:
 
 satisfying prerequisites increases successful attacks (e.g., from 6 to 11).
 --
+```
 
 #Key Figures and What They Show:
 Figure 1 — Vulnerable RV Users per Attack
@@ -174,16 +175,16 @@ Runs fully in Google Colab (CPU-only)
 Unit tests validate dynamics, sensors, and attack logic
 
 To run:
-
+```
 pip install -r requirements.txt
-
+```
 Then open the notebooks in order:
-
+```
 01_rvprober_analysis.ipynb
 
-02_simulation_and_attacks.ipynb
+02_simulation_and_attacks.ipynb 
 --
-
+```
 # Ethics, Safety, and Responsible Disclosure
 
 This repository:
