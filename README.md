@@ -216,15 +216,24 @@ Safe and ethical experimentation
 Readiness to contribute to advanced research in this area
 
 I would be honored to further extend this work — particularly toward defenses, detection mechanisms, and real-world validation under appropriate ethical review — in collaboration with Professor Kim’s research group.
---
+-------
+##📬 Contact:
 
-Citation:
-A safe, simulation-based reproduction and extension of RVPROBER (USENIX Security 2024), analyzing physical sensor attack hardness in robotic vehicles using abstract sensor models and prerequisite-driven evaluation.
-If you refer to this repository, please cite the original paper:
+Developed by Md Mehedi Hasan Senior Lecturer in Computer Science and Engineering Department at Global Institute of Information Technology (GIIT), Tangail, Dhaka, Bangladesh.
 
-@inproceedings{celik2024sensor,
-  title={A Systematic Study of Physical Sensor Attack Hardness},
-  author={Kim, Hyungsub and Bandyopadhyay, Rwitam and Ozmen, Muslum Ozgur and Celik, Z. Berkay and Bianchi, Antonio and Kim, Yongdae and Xu, Dongyan},
-  booktitle={USENIX Security Symposium},
-  year={2024}
+Email: [mehedi.hasan.ict@mbstu.ac.bd](mehedi.hasan.ict@mbstu.ac.bd) | [mehedi.hasan.ict13@gmail.com](mehedi.hasan.ict13@gmail.com)
+
+Phone: +8801789113669 | +8801334110929
+
+Institution: [GIIT University / IdeaVerse / MBSTU]
+---
+Original Paper Citation Link:
+
+@inproceedings{kim2024systematic,
+  title={A systematic study of physical sensor attack hardness},
+  author={Kim, Hyungsub and Bandyopadhyay, Rwitam and Ozmen, Muslum Ozgur and Celik, Z Berkay and Bianchi, Antonio and Kim, Yongdae and Xu, Dongyan},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)},
+  pages={2328--2347},
+  year={2024},
+  organization={IEEE}
 }
