@@ -13,11 +13,11 @@ Design reproducible simulation workflows
 Implement sensor-level models, attack abstractions, and statistical analyses
 
 Produce publication-quality figures suitable for IEEE / NeurIPS / USENIX venues
-
 Reason carefully about ethics, safety, and responsible disclosure.
+
 --
 
-#Project Motivation:
+## Project Motivation:
 Physical sensor attacks on robotic vehicles (RVs) are often dismissed as impractical due to presumed hardware redundancy or environmental constraints. The referenced paper challenges this assumption by introducing attack hardness: a systematic way to quantify how often attacks are feasible in practice by analyzing their prerequisites, parameter sensitivity, and real-world configuration prevalence.
 
 This project reproduces that reasoning in a fully synthetic, simulation-only environment and is intended for:
@@ -31,8 +31,9 @@ Safe experimentation
 Future defensive research
 
 No real-world exploit parameters, hardware details, or procedural guidance are included.
+
 --
-# High-Level Methodology:
+## High-Level Methodology:
 The project follows the same logical structure as the original paper:
 ```
 Step 1 — Attack Prerequisite Analysis
@@ -87,7 +88,7 @@ satisfying prerequisites increases successful attacks (e.g., from 6 to 11).
 --
 ```
 
-#Key Figures and What They Show:
+## Key Figures and What They Show:
 Figure 1 — Vulnerable RV Users per Attack
 <img width="600" height="700" alt="fig_vulnerability_bar (1)" src="https://github.com/user-attachments/assets/690f2ce3-c52f-4b08-bcad-e8f323ffb01e" />
 
@@ -162,9 +163,11 @@ Interpretation:
 Sensor perturbations introduce divergence between redundant estimators, highlighting multi-sensor consistency as a defense signal.
 
 This figure is exported as vector PDF for direct inclusion in academic papers.
+
+
 --
 
-# Reproducibility
+## Reproducibility
 
 All simulations are deterministic (fixed RNG seeds)
 
@@ -185,7 +188,7 @@ Then open the notebooks in order:
 02_simulation_and_attacks.ipynb 
 --
 ```
-# Ethics, Safety, and Responsible Disclosure
+## Ethics, Safety, and Responsible Disclosure
 
 This repository:
 
@@ -202,8 +205,10 @@ IRB-style checklist
 Disclosure recommendations
 
 Limitations of simulation-based studies
+
+
 --
- #Author Note
+ ## Author Note:
 
 This project was developed independently as a research-focused reconstruction of prior work, with the goal of demonstrating:
 
@@ -216,8 +221,10 @@ Safe and ethical experimentation
 Readiness to contribute to advanced research in this area
 
 I would be honored to further extend this work — particularly toward defenses, detection mechanisms, and real-world validation under appropriate ethical review — in collaboration with Professor Kim’s research group.
+
+
 -------
-##📬 Contact:
+## 📬 Contact:
 
 Developed by Md Mehedi Hasan Senior Lecturer in Computer Science and Engineering Department at Global Institute of Information Technology (GIIT), Tangail, Dhaka, Bangladesh.
 
@@ -226,8 +233,10 @@ Email: [mehedi.hasan.ict@mbstu.ac.bd](mehedi.hasan.ict@mbstu.ac.bd) | [mehedi.ha
 Phone: +8801789113669 | +8801334110929
 
 Institution: [GIIT University / IdeaVerse / MBSTU]
+
+
 ---
-Original Paper Citation Link:
+# Original Paper Citation Link:
 
 @inproceedings{kim2024systematic,
   title={A systematic study of physical sensor attack hardness},
