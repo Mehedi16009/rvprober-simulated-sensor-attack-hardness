@@ -37,7 +37,7 @@ No real-world exploit parameters, hardware details, or procedural guidance are i
 The project follows the same logical structure as the original paper:
 ```
 Step 1 — Attack Prerequisite Analysis
-
+```
 For each sensor attack category, we identify:
 
 Required sensors (e.g., GNSS, IMU, magnetometer, optical flow)
@@ -47,9 +47,10 @@ Vehicle types and operating modes
 Environmental constraints
 
 These prerequisites are encoded as boolean predicates over synthetic RV configurations.
+```
 --
 Step 2 — Prerequisite Frequency Estimation
-
+```
 We generate a synthetic population of RV users (simulated flight logs) and estimate:
 
 How often each prerequisite occurs
@@ -57,9 +58,10 @@ How often each prerequisite occurs
 What fraction of RV configurations are vulnerable to each attack
 
 This mirrors the paper’s large-scale log analysis (30k+ real flights), but using benign synthetic data only.
+```
 --
 Step 3 — Abstract Attack Simulation
-
+```
 We implement non-actionable sensor perturbation models that simulate:
 
 GPS spoofing/jamming effects
@@ -73,9 +75,11 @@ Optical-flow manipulation
 Bus-level corruption
 
 Each attack is controlled by a normalized intensity parameter ∈ [0,1], representing attack capability without encoding real-world instructions.
+```
+
 --
 Step 4 — RVPROBER-Style Evaluation
-
+```
 We perform parameter sweeps and observe:
 
 When attacks succeed (mission deviation / instability)
@@ -85,11 +89,14 @@ How satisfying additional prerequisites increases success probability
 This reproduces the paper’s key finding:
 
 satisfying prerequisites increases successful attacks (e.g., from 6 to 11).
+
+```
 --
 ```
 
 ## Key Figures and What They Show:
 Figure 1 — Vulnerable RV Users per Attack
+
 <img width="600" height="700" alt="fig_vulnerability_bar (1)" src="https://github.com/user-attachments/assets/690f2ce3-c52f-4b08-bcad-e8f323ffb01e" />
 
 
