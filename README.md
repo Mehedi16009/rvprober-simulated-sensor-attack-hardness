@@ -198,36 +198,30 @@ Then open the notebooks in order:
 ## Ethics, Safety, and Responsible Disclosure
 
 This repository:
+- Does **not** include real-world exploit instructions  
+- Uses abstract, normalized parameters instead of physical attack details  
+- Is intended entirely for defensive research and methodology analysis  
 
-Does not include real-world exploit instructions
+See `ethics_and_limitations.md` for:
+- IRB-style checklist  
+- Disclosure recommendations  
+- Limitations of simulation-based studies  
 
-Uses abstract parameters instead of physical attack details
+Designed to run in Google Colab using CPU‐only resources. The code uses fixed random seeds for full reproducibility.
 
-Is intended for defensive research and methodology analysis
-
-See ethics_and_limitations.md for:
-
-IRB-style checklist
-
-Disclosure recommendations
-
-Limitations of simulation-based studies
 
 
 --
- ## Author Note:
+## Author Note
 
-This project was developed independently as a research-focused reconstruction of prior work, with the goal of demonstrating:
+This project was developed independently as a **research-focused reconstruction** of prior work. It demonstrates:
+- Technical depth in systems and sensor security  
+- Faithful methodology reproduction  
+- Safe and ethical experimentation  
+- Readiness to contribute to advanced research in this area  
 
-Technical depth in systems and sensor security
+I welcome the opportunity to extend this work—particularly toward detection, mitigation, and real-world validation under appropriate ethical review—in collaboration with Professor Kim’s research group.
 
-Faithful methodology reproduction
-
-Safe and ethical experimentation
-
-Readiness to contribute to advanced research in this area
-
-I would be honored to further extend this work — particularly toward defenses, detection mechanisms, and real-world validation under appropriate ethical review — in collaboration with Professor Kim’s research group.
 
 
 -------
